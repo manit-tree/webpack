@@ -1,6 +1,10 @@
 :root {
     --primary-color: red;
-    --secondary-color: blue;
-    --text-color: #333;
-    --bg-color: #fff;
+    --accent-color: blue;
+    --text-color: #888;
+    --header-color: #333;
+    --title-color: #333;
+    --link-color: #FF8A2B;
+    --divider-color: #eee;
+    --background-color: #fff;
 }
