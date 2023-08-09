@@ -1,0 +1,24 @@
+{
+  "name": "app-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist & webpack --config webpack.config.js & sass ./css/bundle.scss ./css/bundle.css & postcss ./css/bundle.css > ./dist/bundle.css",
+    "dev": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "rimraf": "^5.0.1",
+    "sass": "^1.64.2",
+    "terser": "^5.19.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

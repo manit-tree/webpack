@@ -1,0 +1,12 @@
+:root {
+  --primary-color: red;
+  --secondary-color: blue;
+  --text-color: #333;
+  --bg-color: #fff;
+}
+
+:root {
+  font-family: roboto, arial, tahoma;
+}
+
+/*# sourceMappingURL=bundle.css.map */
