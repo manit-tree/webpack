@@ -10,6 +10,8 @@ npm run dev
 
 npm run build
 
+after build, in index.html remove link to  ./css/variables.css, ./css/style.css and link to ./dist/bundle.css instead.
+
 ## Note
 
 This template requires live-server package
